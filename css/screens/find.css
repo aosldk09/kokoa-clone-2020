@@ -37,3 +37,62 @@
   text-align: center;
   margin: 70px;
 }
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.open-chat__header h6 {
+  color: var(--gray);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.open-chat__header span {
+  color: #d5d5d5;
+}
+
+.open-post {
+  display: flex;
+}
+
+.open-post__title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__member-count {
+  color: var(--gray);
+  font-size: 15px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: var(--gray);
+}
+
+.open-post__member-status {
+  color: #ff78cb;
+}
